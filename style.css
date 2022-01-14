@@ -81,7 +81,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: calc(100vh-80px);
-  margin-left: 15px;
+  margin-left: 25px;
 }
 .banner-left {
   display: flex;
@@ -140,4 +140,40 @@ nav {
 .card a {
   text-decoration: none;
   color: #ff008e;
+}
+/*--------------------------------------
+------------- gallery part's css---------
+ */
+.gallery {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.photo img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #ff008e;
+  box-shadow: 10px 10px 10px 10px #808080ad;
+}
+/*------------------------------------------------
+---------------- input part"s css---------------- */
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-left img {
+  width: 100%;
+}
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-field {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 18px;
+  font-variant: inherit;
 }
