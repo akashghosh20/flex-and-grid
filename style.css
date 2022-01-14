@@ -176,4 +176,14 @@ nav {
   padding: 10px;
   font-size: 18px;
   font-variant: inherit;
+  outline: 0;
+  border: 1px solid #ff008e;
+}
+/* ---------------------footer css-------------------------
+ --------------------------------------------------------- */
+footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
